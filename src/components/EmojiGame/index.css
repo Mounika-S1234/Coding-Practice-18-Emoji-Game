@@ -1,0 +1,22 @@
+/* Write your code here. */
+.emoji-game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.game-body {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.emojis-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+

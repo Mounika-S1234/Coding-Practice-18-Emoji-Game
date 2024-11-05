@@ -1,0 +1,26 @@
+/* Write your code here. */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #6a59ff;
+  padding: 10px 20px;
+}
+
+.game-logo {
+  height: 50px;
+}
+
+.scores-container {
+  display: flex;
+  gap: 20px;
+}
+
+.score,
+.top-score {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
